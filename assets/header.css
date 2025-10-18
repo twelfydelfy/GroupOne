@@ -1,0 +1,115 @@
+.header-upper{
+    background-color: rgb(54, 54, 78);
+    width: 100vw;
+    height: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 4px solid rgb(203, 166, 3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+
+}
+.header-upper-left, .header-upper-right{
+    color: white;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-phone-icon{
+    height: 20px;
+    width: 20px;
+}
+.header-upper-right{
+    margin-right: 300px;
+}
+.header-middle{
+    border-top: 2px solid rgb(54, 54, 78);
+    border-bottom: 2px solid rgb(54, 54, 78);
+    left: 0; right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.header-middle-left{
+    display: flex;
+    flex-direction: row;
+}
+.header-middle-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 35%;
+    padding-right: 10%;
+    align-items: center;
+}
+.header-middle-right button{
+    padding: 7px 13px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.header-logo{
+    height: 90px;
+    width: 90px;
+    left: 570px;
+    z-index: 11;
+    margin-top: -10px;
+    position: absolute;
+}
+@font-face{
+   font-family: MyFont;
+   src:url(fonts/Expansivabold.otf);
+}
+
+.logo-text{
+    color: rgb(0, 0, 0);
+    font-family: MyFont;
+    font-size: 60px;
+    z-index: 11;
+    position: absolute;
+    top: -50px;
+    left: 70px;
+    color: #2c2c2c;
+}
+.header-lower{
+    background-color: rgb(54, 54, 78);
+    width: 100vw;
+    height: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+.header-location-icon{
+    height: 20px;
+    width: 20px;
+}
+.header-adress{
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500px;
+    margin-right: 300px;
+}
+.orange-box{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 97px;
+    width: 600px;
+    background-color: rgb(255, 184, 42);
+    z-index: 10;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
