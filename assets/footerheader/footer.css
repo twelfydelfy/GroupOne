@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    width: 100%;
+}
+.fupper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 95%;
+    align-items: center;
+}
+.fcontactform p{
+    font-size: 36px;
+    font-weight: 500;
+}
+.fcontactform form{
+    display: flex;
+    flex-direction: column;
+}
+.fcontactform input[type="text"]{
+    background-color: red;
+}
