@@ -19,7 +19,7 @@
         <div class="sec1txt2">
             <div class="s1box">
                 <h1>20+ Ani</h1>
-                <p>De experiență în domeniu</p> 
+                <p>De experiență în cristi</p> 
             </div>
             <hr>
             <div class="s1box">
