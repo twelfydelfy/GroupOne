@@ -22,7 +22,11 @@
         <div class="sec1txt2">
             <div class="s1box">
                 <h1>20+ Ani</h1>
+<<<<<<< HEAD
                 <p>De experiență în domeniu</p>
+=======
+                <p>De experiență în cristi</p> 
+>>>>>>> ac4afff0e5838bafc1b9d2801f924de19e99f10a
             </div>
             <hr>
             <div class="s1box">
