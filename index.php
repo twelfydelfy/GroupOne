@@ -22,11 +22,7 @@
         <div class="sec1txt2">
             <div class="s1box">
                 <h1>20+ Ani</h1>
-<<<<<<< HEAD
-                <p>De experiență în domeniu</p>
-=======
-                <p>De experiență în cristi</p> 
->>>>>>> ac4afff0e5838bafc1b9d2801f924de19e99f10a
+                <p>De experiență în cristi</p>
             </div>
             <hr>
             <div class="s1box">
@@ -73,8 +69,38 @@
         <div class="sec3left">
         </div>
     </div>
-    <?php include("assets/footerheader/footer.php")?>
-    <script src="assets/homepage.js"></script>
+    <div class="section4">
+        <div class="sec4left">
+            <div class="sec4title">
+                <h1>Partenerii <span>Noștri</span></h1>
+            </div>
+            <p class="sec4subtitle">Afla partenerii nostri ce ofera suportul pentru a presta cele mai bune servicii in
+                domeniul constructiei drumurilor</p>
+            <div class="sec4leftcontent">
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec4right">
+            <div class="sec4title">
+                <h1>Certificările <span>noastre</span></h1>
+            </div>
+            
+            <p class="sec4subtitle">Afla partenerii nostri ce ofera suportul pentru a presta cele mai bune servicii in
+                domeniul constructiei drumurilor</p>
+            <div class="sec4rightcontent">
+
+            </div>
+        </div>
+    </div>
+    <?php include("assets/footerheader/footer.php") ?>
+    <script src="assets/homepage.js?v=<?php echo time(); ?>"></script>
+    <script src="assets/footerheader/footer.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

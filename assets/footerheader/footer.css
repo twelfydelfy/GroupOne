@@ -10,16 +10,110 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 95%;
-    align-items: center;
+    align-items: flex-start;
 }
-.fcontactform p{
-    font-size: 36px;
+.fcontactform{
+    width: 30%;
+}
+.fcontactform p, .flocatii p{
+    font-size: 30px;
     font-weight: 500;
 }
 .fcontactform form{
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
+    
 }
-.fcontactform input[type="text"]{
-    background-color: red;
+.fcontactform input{
+    background-color: #ececec;
+    height: 36px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(82, 82, 82);
+}
+.fcontactform textarea{
+    background-color: #ececec;
+    height: 72px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 10px;
+    outline: none;
+    color: rgb(82, 82, 82);
+    resize: none;
+    padding-top: 5px;
+}
+.fcontactform input[type="submit"]{
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.flocatii{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.floc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    row-gap: 10px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.boxshowing{
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+.boxshowing h6{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.boxhidden{
+    display: none;
+    opacity: 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+}
+.flocation{
+    padding-top: 30px;
+}
+.lowerheaderline{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+}
+.flower{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.flower-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
 }
