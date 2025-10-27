@@ -84,18 +84,104 @@
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="sec4right">
             <div class="sec4title">
                 <h1>Certificările <span>noastre</span></h1>
             </div>
-            
             <p class="sec4subtitle">Afla partenerii nostri ce ofera suportul pentru a presta cele mai bune servicii in
                 domeniul constructiei drumurilor</p>
             <div class="sec4rightcontent">
-
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="assets/images/square.png">
+                    <div class="boxinner">
+                        <h1>Tolea Selban SRL</h1>
+                        <p>Va nie ini arde hogeacu</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="section5">
+        <div class="title">
+            <h1>Proiectele <span>noastre</span></h1>
+        </div>
+        <div class="sec5content">
+            <img src="assets/images/arrowPlaceholder.png" id="sliderLeftArrow">
+                    <div class="sec5sliderbox">
+                        <div class="sec5slider">
+                            <div class="box">
+                                <img src="assets/images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="assets/images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="assets/images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="assets/images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum2</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="assets/images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum2</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assets/images/arrowPlaceholder.png" id="sliderRightArrow">
         </div>
     </div>
     <?php include("assets/footerheader/footer.php") ?>
