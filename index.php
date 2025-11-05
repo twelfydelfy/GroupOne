@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/homepage.css?v=<?php echo time(); ?>">
-    <?php include("assets/basicLinks.php") ?>
-    <link rel="stylesheet" href="assets/footerheader/footer.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="assets/footerheader/header.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="homepage.css?v=<?php echo time(); ?>">
+    <?php include("basicLinks.php") ?>
+    <link rel="stylesheet" href="footerheader/footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="footerheader/header.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
-    <?php include("assets/footerheader/header.php") ?>
+    <?php include("footerheader/header.php") ?>
 
     <div class="section1">
-        <img src="assets/images/placeholder.avif" alt="" class="coverImg">
+        <img src="images/placeholder.avif" alt="" class="coverImg">
         <div class="sec1txt1">
             <p>STRICAM DRUMURI </p>
         </div>
@@ -50,23 +50,57 @@
     <div class="section3">
         <div class="sec3right">
             <div class="sec3rbtn active">
-                <img src="assets\images\Ellipse101.png">
+                <img src="images\Ellipse101.png">
                 <p>Lorem Ipsum Lorem Ipsum</p>
             </div>
             <div class="sec3rbtn">
-                <img src="assets\images\Ellipse100.png">
+                <img src="images\Ellipse100.png">
                 <p>Lorem Ipsum Lorem Ipsum</p>
             </div>
             <div class="sec3rbtn">
-                <img src="assets\images\Ellipse100.png">
+                <img src="images\Ellipse100.png">
                 <p>Lorem Ipsum Lorem Ipsum</p>
             </div>
             <div class="sec3rbtn">
-                <img src="assets\images\Ellipse100.png">
+                <img src="images\Ellipse100.png">
                 <p>Lorem Ipsum Lorem Ipsum</p>
             </div>
         </div>
         <div class="sec3left">
+            <div class="sec3leftcontent">
+                <div class="sec3leftupper">
+                    <h6>Vindem Asfalt</h6>
+                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
+Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <a><button>Detalii</button></a>
+                </div>
+                <div class="sec3leftlower">
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec3leftimg">
+                <img src="images/square.png">
+            </div>
         </div>
     </div>
     <div class="section4">
@@ -78,21 +112,21 @@
                 domeniul constructiei drumurilor</p>
             <div class="sec4leftcontent">
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
@@ -108,21 +142,21 @@
                 domeniul constructiei drumurilor</p>
             <div class="sec4rightcontent">
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="assets/images/square.png">
+                    <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
                         <p>Va nie ini arde hogeacu</p>
@@ -136,35 +170,19 @@
             <h1>Proiectele <span>noastre</span></h1>
         </div>
         <div class="sec5content">
-            <img src="assets/images/arrowPlaceholder.png" id="sliderLeftArrow">
+            <img src="images/arrowPlaceholder.png" id="sliderLeftArrow">
                     <div class="sec5sliderbox">
                         <div class="sec5slider">
                             <div class="box">
-                                <img src="assets/images/square.png">
+                                <img src="images/square.png">
                                 <div class="titleboxslider">
-                                    <h1>Lorem Ipsum</h1>
+                                    <h1>Lorem Ipsum1</h1>
                                 </div>
                                 <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                                     Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
                             </div>
                             <div class="box">
-                                <img src="assets/images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="assets/images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="assets/images/square.png">
+                                <img src="images/square.png">
                                 <div class="titleboxslider">
                                     <h1>Lorem Ipsum2</h1>
                                 </div>
@@ -172,21 +190,37 @@
                                     Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
                             </div>
                             <div class="box">
-                                <img src="assets/images/square.png">
+                                <img src="images/square.png">
                                 <div class="titleboxslider">
-                                    <h1>Lorem Ipsum2</h1>
+                                    <h1>Lorem Ipsum3</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum4</h1>
+                                </div>
+                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                            </div>
+                            <div class="box">
+                                <img src="images/square.png">
+                                <div class="titleboxslider">
+                                    <h1>Lorem Ipsum5</h1>
                                 </div>
                                 <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
                                     Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
                             </div>
                         </div>
                     </div>
-                    <img src="assets/images/arrowPlaceholder.png" id="sliderRightArrow">
+                    <img src="images/arrowPlaceholder.png" id="sliderRightArrow">
         </div>
     </div>
-    <?php include("assets/footerheader/footer.php") ?>
-    <script src="assets/homepage.js?v=<?php echo time(); ?>"></script>
-    <script src="assets/footerheader/footer.js?v=<?php echo time(); ?>"></script>
+    <?php include("footerheader/footer.php") ?>
+    <script src="homepage.js?v=<?php echo time(); ?>"></script>
+    <script src="footerheader/footer.js?v=<?php echo time(); ?>"></script>
 </body>
 
 </html>

@@ -107,15 +107,15 @@ body {
     flex-direction: row;
     width: 70%;
     justify-content: space-between;
-    align-items: center;
-    height: 400px;
+    align-items: flex-start;
+    height: 563px;
 }
 .sec3right{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 100%;
+    height: 400px;
 }
 .sec3rbtn{
     display: flex;
@@ -143,9 +143,64 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items:flex-start;
-    height: 100%;
+    height: 563px;
     width: 75%;
     border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sec3leftcontent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 95%;
+    justify-content: space-between;
+}
+.sec3leftupper button{
+    background-color: #FFBA00;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.sec3leftlower{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.sec3leftlower .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec3leftlower .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.sec3leftlower .boxinner{
+    background-color: #FFBA00;
+    color: white;
+    border-radius: 6px;
+    width: 50%;
+    text-align: center;
+    padding: 5px 10px;;
+}
+.sec3leftlower .boxinner p{
+    margin: 0;
+}
+.sec3leftimg{
+    height: 563px;
+    width: 267px;
+}
+.sec3leftimg img{
+    object-fit: cover;
+    height: 563px;
+    width: 267px;
 }
 .section4{
     display: flex;
@@ -266,4 +321,134 @@ body {
     font-size: 16px;
     line-height: 24px;
     padding: 0px 5px;
+}
+
+@media (max-width: 768px){
+    .sec1txt1{
+        top: 10%;
+        left: 15%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .sec1txt1 p{
+        font-size: 12px;
+    }
+    .sec1txt2{
+        top: 100%;
+        width: 100%;
+        margin-left: 0;
+        height: 100px;
+    }
+    .sec1txt2 h1{
+        font-size: 16px;
+    }
+    .sec1txt2 p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .sec1txt2 hr{
+        height: 80%;
+    }
+    .title{
+        width: 80%;
+        height: 40px;
+    }
+    .title h1{
+        font-size: 16px;
+    }
+    .section2{
+        margin-top: 150px;
+    }
+    .subtitle{
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
+    }
+    .section3{
+        width: 90%;
+        flex-direction: column;
+    }
+    .sec3right{
+        height: 250px;
+        width: 100%;
+    }
+    .sec3rbtn{
+        width: 100%;
+        padding: 0 8px;
+        height: 50px;
+        justify-content: start;
+    }
+    .sec3rbtn p{
+        font-size: 10px;
+    }
+    .sec3rbtn img{
+        height: 20px;
+        width: 20px;
+    }
+    .sec3left{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sec3leftimg{
+        display: none;
+    }
+    .sec3leftupper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec3leftupper h6{
+        font-size: 20px;
+        margin: 0;
+    }
+    .sec3leftupper p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .sec3leftlower{
+        margin-top: 40px;
+    }
+    .sec3leftlower .box img{
+        height: 70px;
+        width: 70px;
+    }
+    .sec3leftlower .boxinner p{
+        font-size: 10px;
+    }
+    .section4{
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .sec4left, .sec4right{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 30px;
+    }
+    .sec4title{
+        max-width: 100%;
+        width: 100%;
+        height: 44px;
+    }
+    .sec4title h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .sec4subtitle{
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    .sec5content{
+        width: 100%;
+    }
+    #sliderLeftArrow{
+        transform: scale(0.7) rotate(180deg) !important;
+    }
+    #sliderRightArrow{
+        transform: scale(0.7);
+    }
+    .sec5slider{
+        width: 500%;
+    }
 }
