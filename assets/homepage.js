@@ -1,5 +1,6 @@
 const totalSlides = 5;
 let currentLastSlide = 4;
+let currentOption = 1;
 
 document.querySelector('#sliderRightArrow').addEventListener('click', ()=>{
     if(currentLastSlide < totalSlides){
@@ -22,3 +23,4 @@ function MoveSlider(){
     const slider  = document.querySelector('.sec5slider');
     slider.style.marginLeft = `${-((currentLastSlide-4) * 25)}%`;
 }
+

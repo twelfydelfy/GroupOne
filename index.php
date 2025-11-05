@@ -67,6 +67,40 @@
             </div>
         </div>
         <div class="sec3left">
+            <div class="sec3leftcontent">
+                <div class="sec3leftupper">
+                    <h6>Vindem Asfalt</h6>
+                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
+Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <a><button>Detalii</button></a>
+                </div>
+                <div class="sec3leftlower">
+                    <div class="box">
+                        <img src="assets/images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="assets/images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec3leftimg">
+                <img src="assets/images/square.png">
+            </div>
         </div>
     </div>
     <div class="section4">
