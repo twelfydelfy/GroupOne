@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <?php include("../basicLinks.php") ?>
-    <link rel="stylesheet" href="../footerheader/footer.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="../footerheader/header.css?v=<?php echo time(); ?>">
-    <?php include("../footerheader/header.php") ?>
+    <?php include("basicLinks.php") ?>
+    <link rel="stylesheet" href="footerheader/footer.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="footerheader/header.css?v=<?php echo time(); ?>">
+    <?php include("footerheader/header.php") ?>
     <link rel="stylesheet" href="inchiriere.css">
 </head>
 
@@ -60,9 +60,9 @@
         </div>
     </div>
 
-    <?php include("../footerheader/footer.php") ?>
-    <script src="../homepage.js?v=<?php echo time(); ?>"></script>
-    <script src="../footerheader/footer.js?v=<?php echo time(); ?>"></script>
+    <?php include("footerheader/footer.php") ?>
+    <script src="homepage.js?v=<?php echo time(); ?>"></script>
+    <script src="footerheader/footer.js?v=<?php echo time(); ?>"></script>
 
 </body>
 
