@@ -49,30 +49,38 @@
     </div>
     <div class="section3">
         <div class="sec3right">
-            <div class="sec3rbtn active">
-                <img src="images\Ellipse101.png">
-                <p>Lorem Ipsum Lorem Ipsum</p>
+            <div class="sec3rbtn active" id="1">
+                <img src="images/Ellipse101.png" data-active="images/Ellipse101.png"
+                    data-inactive="images/Ellipse100.png">
+                <p>Construcția și Reabilitarea Drumurilor</p>
             </div>
-            <div class="sec3rbtn">
-                <img src="images\Ellipse100.png">
-                <p>Lorem Ipsum Lorem Ipsum</p>
+
+            <div class="sec3rbtn" id="2">
+                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
+                    data-inactive="images/Ellipse100.png">
+                <p>Servicii de Transport, Închiriere Utilaje</p>
             </div>
-            <div class="sec3rbtn">
-                <img src="images\Ellipse100.png">
-                <p>Lorem Ipsum Lorem Ipsum</p>
+
+            <div class="sec3rbtn" id="3">
+                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
+                    data-inactive="images/Ellipse100.png">
+                <p>Producere</p>
             </div>
-            <div class="sec3rbtn">
-                <img src="images\Ellipse100.png">
-                <p>Lorem Ipsum Lorem Ipsum</p>
+
+            <div class="sec3rbtn" id="4">
+                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
+                    data-inactive="images/Ellipse100.png">
+                <p>Utilaje spre Vânzare</p>
             </div>
+
         </div>
         <div class="sec3left">
             <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt</h6>
                     <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a><button>Detalii</button></a>
+                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <a href="drumuri/drumuri.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -171,51 +179,51 @@
         </div>
         <div class="sec5content">
             <img src="images/arrowPlaceholder.png" id="sliderLeftArrow">
-                    <div class="sec5sliderbox">
-                        <div class="sec5slider">
-                            <div class="box">
-                                <img src="images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum1</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum2</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum3</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum4</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
-                            <div class="box">
-                                <img src="images/square.png">
-                                <div class="titleboxslider">
-                                    <h1>Lorem Ipsum5</h1>
-                                </div>
-                                <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-                                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
-                            </div>
+            <div class="sec5sliderbox">
+                <div class="sec5slider">
+                    <div class="box">
+                        <img src="images/square.png">
+                        <div class="titleboxslider">
+                            <h1>Lorem Ipsum1</h1>
                         </div>
+                        <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
                     </div>
-                    <img src="images/arrowPlaceholder.png" id="sliderRightArrow">
+                    <div class="box">
+                        <img src="images/square.png">
+                        <div class="titleboxslider">
+                            <h1>Lorem Ipsum2</h1>
+                        </div>
+                        <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+                        <div class="titleboxslider">
+                            <h1>Lorem Ipsum3</h1>
+                        </div>
+                        <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+                        <div class="titleboxslider">
+                            <h1>Lorem Ipsum4</h1>
+                        </div>
+                        <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+                        <div class="titleboxslider">
+                            <h1>Lorem Ipsum5</h1>
+                        </div>
+                        <p> Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </p>
+                    </div>
+                </div>
+            </div>
+            <img src="images/arrowPlaceholder.png" id="sliderRightArrow">
         </div>
     </div>
     <?php include("footerheader/footer.php") ?>

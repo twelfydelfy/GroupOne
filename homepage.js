@@ -1,3 +1,5 @@
+//This part is responsible for the slider
+
 const totalSlides = 5;
 if(window.innerWidth > 768){
 let currentLastSlide = 4;
@@ -50,3 +52,107 @@ function MoveSlider(){
     slider.style.marginLeft = `${-((currentLastSlide-1) * 100)}%`;
 }
 }
+
+
+// This part is responsible for the main services menu
+
+
+//This code is responsible for the changing styles of the buttons
+document.querySelectorAll('.sec3rbtn').forEach(button => {
+  button.addEventListener('click', () => {
+    document.querySelectorAll('.sec3rbtn').forEach(btn => {
+      btn.classList.remove('active');
+      const img = btn.querySelector('img');
+      if (img) img.src = img.dataset.inactive; // reset all images
+    });
+
+    button.classList.add('active');
+    const activeImg = button.querySelector('img');
+    if (activeImg) activeImg.src = activeImg.dataset.active; // activate clicked one
+  });
+});
+
+
+//This code is responsible for actually changing the content inside the box
+const section3content = document.querySelector('.sec3left');
+document.querySelectorAll('.sec3rbtn').forEach(button =>{
+    button.addEventListener('click', ()=>{
+        if(button.id == '1'){
+            section3content.innerHTML = `
+               <div class="sec3leftcontent">
+                <div class="sec3leftupper">
+                    <h6>Vindem Asfalt</h6>
+                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
+                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <a><button>Detalii</button></a>
+                </div>
+                <div class="sec3leftlower">
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec3leftimg">
+                <img src="images/square.png">
+            </div>
+            `
+        }
+        else if(button.id == '2'){
+            console.log('2');
+            section3content.innerHTML = `
+               <div class="sec3leftcontent">
+                <div class="sec3leftupper">
+                    <h6>Vindem O pula</h6>
+                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
+                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <a><button>Detalii</button></a>
+                </div>
+                <div class="sec3leftlower">
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/square.png">
+
+                        <div class="boxinner">
+                            <p>HELLO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sec3leftimg">
+                <img src="images/square.png">
+            </div>
+            `
+        }
+    })
+})

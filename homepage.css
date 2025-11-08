@@ -127,16 +127,19 @@ body {
     height: 89px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
 }
 .sec3rbtn.active{
     background-color: #FFBA00;
     color: white;
 }
 .sec3rbtn p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: Roboto;
     font-weight: 500;
     padding-left: 10px;
+    width: 100%;
 }
 .sec3left{
     display: flex;
@@ -331,6 +334,7 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 5px;
+        display: none;
     }
     .sec1txt1 p{
         font-size: 12px;
@@ -352,8 +356,9 @@ body {
         height: 80%;
     }
     .title{
-        width: 80%;
-        height: 40px;
+        max-width: 100%;
+        width: 100%;
+        height: 44px;
     }
     .title h1{
         font-size: 16px;
@@ -366,13 +371,17 @@ body {
         width: 80%;
         text-align: center;
     }
+    .section2{
+        width: 100%;
+    }
     .section3{
         width: 90%;
         flex-direction: column;
     }
     .sec3right{
-        height: 250px;
+        height: 270px;
         width: 100%;
+        row-gap: 10px;
     }
     .sec3rbtn{
         width: 100%;
@@ -381,7 +390,7 @@ body {
         justify-content: start;
     }
     .sec3rbtn p{
-        font-size: 10px;
+        font-size: 14px;
     }
     .sec3rbtn img{
         height: 20px;
@@ -424,12 +433,21 @@ body {
     .sec4left, .sec4right{
         width: 90%;
         margin-left: 5%;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    .sec4leftcontent .box, .sec4rightcontent .box{
+        font-size: 15px;
+    }
+    .sec4leftcontent .box h1, .sec4rightcontent .box h1{
+        font-size: 20px;
     }
     .sec4title{
         max-width: 100%;
         width: 100%;
         height: 44px;
+    }
+    .title{
+        max-width: 90%;
     }
     .sec4title h1{
         font-size: 16px;
@@ -438,6 +456,12 @@ body {
     .sec4subtitle{
         padding: 0 10px;
         font-size: 12px;
+    }
+    .section5{
+        margin-top: 30px;
+    }
+    .footer{
+        margin-top: 50px !important;
     }
     .sec5content{
         width: 100%;
