@@ -80,7 +80,7 @@
                     <h6>Vindem Asfalt</h6>
                     <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
                         Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri/drumuri.php"><button>Detalii</button></a>
+                    <a href="drumuri.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -228,7 +228,7 @@
     </div>
     <?php include("footerheader/footer.php") ?>
     <script src="homepage.js?v=<?php echo time(); ?>"></script>
-    <script src="footerheader/footer.js?v=<?php echo time(); ?>"></script>
+    <?php include("basicScripts.php") ?>
 </body>
 
 </html>

@@ -16,7 +16,7 @@
 <body>
     <div class="center">
         <div class="TipaBtn">
-            <h1>Inchirieaza o <span>Pula</span></h1>
+            <h1>Inchiriere<span></span></h1>
         </div>
     </div>
     <section class="center2">

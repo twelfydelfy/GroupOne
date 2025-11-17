@@ -116,7 +116,86 @@
 @media (max-width: 768px){
     header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         height: 100%;
+        align-items: center;
+        width: 100%;
+        background-color: #FFBA00;
+    }
+    .headerleft{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 20px;
+    }
+    .headerleft p{
+        font-size: 20px;
+        margin: 0;
+        font-family: MyFont;
+    }
+    .headerleft img{
+        height: 30px;
+        width: 30px;
+        padding: 5px 10px;
+    }
+    .headerright{
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .headerright img{
+        height: 30px;
+        width: auto;
+    }
+    .headerhidden{
+        width: 100%;
+        position: absolute;
+        top: 40px;
+        background-color: #2F2E3C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        z-index: 5;
+        height: 0;
+        transition: all ease-out 0.3s;
+        overflow: hidden;
+    }
+    .hidden{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .hiddenmenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .hiddenmenu button{
+        font-family: Roboto;
+        width: 60vw;
+        font-size: 16px;
+        padding: 5px 0;
+        background-color: transparent;
+        border: 1.5px solid #FFBA00;
+        border-radius: 8px;
+        color: white;
+    }
+    .hiddencontacts{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        width: 100%;
+        justify-content: space-evenly;
+        font-size: 12px;
+        padding: 10px 0;
     }
 }
