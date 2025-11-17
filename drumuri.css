@@ -1,196 +1,280 @@
-:root {
-    --cofeniu: #2F2E3C;
-    --golben: #FFBA00;
-}
-
-body {
-    padding: 0;
+body{
     margin: 0;
-    font-family: 'Roboto';
-}
-
-.center {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.center2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 20px;
-}
-
-.TipaBtn {
-    margin: 10px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #2F2E3C;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: bold;
-    height: 50px;
-    width: 494px;
-
-    border-radius: 10px;
-    text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(47, 46, 60, .25);
-
-    span {
-        color: var(--golben);
-    }
-
-}
-
-.Cautare {
-    width: 285px;
-    height: 480px;
-    border: 1px rgb(180, 180, 180, 1) solid;
-    box-shadow: 0px 5px 5px rgba(47, 46, 60, .25);
-    border-radius: 10px;
-    padding: 0 20px;
-    box-sizing: border-box;
-
-    position: relative;
-
-    h3 {
-        margin-bottom: 0;
-    }
-
-    span {
-        color: var(--golben);
-    }
-
-    ul {
-        list-style-type: none;
-
-        li {
-            margin: 3px;
-        }
-    }
-
-    input[type="submit"] {
-        background: #FFBA00;
-        background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.6) 50%, rgba(255, 186, 0, 1) 100%);
-        border: none;
-        color: white;
-        font-weight: bold;
-        width: 100%;
-        padding: 9px;
-        border-radius: 6px;
-        letter-spacing: 1px;
-        font-family: 'Roboto';
-        cursor: pointer;
-        font-size: large;
-        position: absolute;
-        bottom: 10px;
-        width: 90%;
-        left: 50%;
-        transform: translateX(-50%);
-
-
-
-    }
-}
-
-.CardBox {
-    width: 970px;
-    min-height: 500px;
-    /*
-   border: 1px var(--cofeniu) solid;
-   */
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.Card {
-    width: 300px;
-    height: 480px;
-    background-color: rgb(47, 46, 60, .1);
-    position: relative;
-    border-radius: 10px;
-    border: 1px rgb(180, 180, 180, 1) solid;
-}
-
-.CardImg {
-    background-color: rgba(255, 255, 255, 1);
-    width: 100%;
-    height: 140px;
-    border-radius: 10px;
-}
-
-.CardContent {
+    font-family: Roboto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
-    padding: 0 40px;
-    gap: 15px;
+}
+@font-face{
+   font-family: MyFont;
+   src:url(fonts/Expansivabold.otf);
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90% !important;
+    margin-top: 30px;
+}
+.section1inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: 50px;
+}
+.section1inner p{
+    width: 40%;
+    font-size: 18px;
+    line-height: 35px;
+}
+.section1inner img{
+    width: 60%;
+    height: auto;
+}
+.section2{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title, .title2{
+    background-color: #2F2E3C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 494px;
+    height: 60px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgba(47, 46, 60, .25);
+
+}
+.title2{
+    width: 750px;
+}
+.title h1, .title2 h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+}
+.title h1 span, .title2 h1 span{
+    color: #FFC13B;
+}
+.subtitle{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 563px;
+}
+.sec3right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+}
+.sec3rbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+    padding: 0 15px;
+    height: 89px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.sec3rbtn:hover{
+    color: #FFBA00;
+}
+.sec3rbtn.active{
+    background-color: #FFBA00;
+    color: white;
+}
+.sec3rbtn p{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    padding-left: 10px;
+    width: 100%;
+}
+.sec3left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 563px;
+    width: 75%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sec3leftcontent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    height: 95%;
+    justify-content: space-between;
+}
+.sec3leftupper button{
+    background-color: #FFBA00;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 28px;
+    border: none;
+    border: 2px solid #FFBA00;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.sec3leftupper button:hover{
+    background-color: white;
+    color: #FFBA00;
+}
+.sec3leftlower{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.sec3leftupper h6{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.sec3leftlower .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sec3leftlower .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.sec3leftlower .boxinner{
+    background-color: #FFBA00;
+    color: white;
+    border-radius: 6px;
+    width: 50%;
+    text-align: center;
+    padding: 5px 10px;;
+}
+.sec3leftlower .boxinner p{
+    margin: 0;
+}
+.sec3leftimg{
+    height: 563px;
+    width: 267px;
+}
+.sec3leftimg img{
+    object-fit: cover;
+    height: 563px;
+    width: 267px;
 }
 
-.CardHeader {
-    width: 100%;
-
-    h3 {
-        font-weight: normal;
-        margin: 0;
+@media (max-width: 768px){
+    .section1{
+        width: 100%;
+    }
+    .section1inner{
+        flex-direction: column;
+        width: 100%;
         margin-top: 10px;
     }
-
-    span {
-        color: #6b6b6b;
+    .section1inner p{
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
     }
-
-}
-
-.CardDesc {
-    background-color: white;
-    width: 100%;
-    height: 205px;
-    align-self: center;
-    border-radius: 6px;
-    padding: 0 15px;
-    box-sizing: border-box;
-
-}
-
-.CardBuy {
-    background: #FFBA00;
-    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.6) 50%, rgba(255, 186, 0, 1) 100%);
-    border: none;
-    color: white;
-    font-weight: bold;
-    width: 100%;
-    padding: 9px;
-    border-radius: 6px;
-    letter-spacing: 1px;
-    font-family: 'Roboto';
-    cursor: pointer;
-
-    h3 {
+    .section1inner img{
+        width: 100%;
+    }
+    .section2{
+        margin-top: 50px;
+    }
+    .subtitle{
+        font-size: 10px;
+        width: 80%;
+        text-align: center;
+    }
+    .section2{
+        width: 100%;
+    }
+    .title, .title2{
+        max-width: 100%;
+        width: 90%;
+        height: 44px;
+        text-align: center;
+    }
+    .title h1, .title2 h1{
+        font-size: 16px;
+    }
+    .section3{
+        width: 90%;
+        flex-direction: column;
+    }
+    .sec3right{
+        height: 270px;
+        width: 100%;
+        row-gap: 10px;
+    }
+    .sec3rbtn{
+        width: 100%;
+        padding: 0 8px;
+        height: 50px;
+        justify-content: start;
+    }
+    .sec3rbtn p{
+        font-size: 14px;
+    }
+    .sec3rbtn img{
+        height: 20px;
+        width: 20px;
+    }
+    .sec3left{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sec3leftimg{
+        display: none;
+    }
+    .sec3leftupper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec3leftupper h6{
+        font-size: 20px;
         margin: 0;
     }
-}
-
-.CardBuy:hover {
-    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.5) 50%, rgba(255, 186, 0, 1) 100%);
-
-}
-
-.CardBuy:active {
-    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.4) 50%, rgba(255, 186, 0, 1) 100%);
-
-}
-
-.CardImg:nth-of-type(1) {
-    background-image: url('https://image.made-in-china.com/2f0j00biWkSOgoEuzv/Wd-130HP-New-Design-Wholesale-Farm-Tractor-Wheeled-Tractors-for-Agriculture.webp');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    .sec3leftupper p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .sec3leftlower{
+        margin-top: 40px;
+    }
+    .sec3leftlower .box img{
+        height: 70px;
+        width: 70px;
+    }
+    .sec3leftlower .boxinner p{
+        font-size: 10px;
+    }   
 }

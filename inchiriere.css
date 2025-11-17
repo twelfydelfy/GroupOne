@@ -15,39 +15,12 @@ body {
     margin-top: 20px;
 }
 
-.content {
+.center2 {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 0 50px;
-    gap: 30px;
-
-    .TipaBtn {
-        width: 594px;
-    }
-    margin-bottom: 130px;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
 }
-
-.subContent {
-    .TipaBtn{
-        margin-bottom: 30px;
-    }
-}
-
-.secDublu {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-
-    div {
-        padding: 5px 20px;
-        border: .8px var(--cofeniu) solid;
-        border-radius: 10px;
-        box-shadow: 0px 5px 5px rgba(47, 46, 60, .25);
-
-    }
-}
-
 
 .TipaBtn {
     margin: 10px 40px;
@@ -69,13 +42,155 @@ body {
     span {
         color: var(--golben);
     }
+
 }
 
+.Cautare {
+    width: 285px;
+    height: 480px;
+    border: 1px rgb(180, 180, 180, 1) solid;
+    box-shadow: 0px 5px 5px rgba(47, 46, 60, .25);
+    border-radius: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    position: relative;
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    span {
+        color: var(--golben);
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            margin: 3px;
+        }
+    }
+
+    input[type="submit"] {
+        background: #FFBA00;
+        background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.6) 50%, rgba(255, 186, 0, 1) 100%);
+        border: none;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        padding: 9px;
+        border-radius: 6px;
+        letter-spacing: 1px;
+        font-family: 'Roboto';
+        cursor: pointer;
+        font-size: large;
+        position: absolute;
+        bottom: 10px;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
 
 
 
+    }
+}
 
-.col {
-    background-color: red;
-    width: 400px;
+.CardBox {
+    width: 970px;
+    min-height: 500px;
+    /*
+   border: 1px var(--cofeniu) solid;
+   */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Card {
+    width: 300px;
+    height: 480px;
+    background-color: rgb(47, 46, 60, .1);
+    position: relative;
+    border-radius: 10px;
+    border: 1px rgb(180, 180, 180, 1) solid;
+}
+
+.CardImg {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.CardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40px;
+    gap: 15px;
+}
+
+.CardHeader {
+    width: 100%;
+
+    h3 {
+        font-weight: normal;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    span {
+        color: #6b6b6b;
+    }
+
+}
+
+.CardDesc {
+    background-color: white;
+    width: 100%;
+    height: 205px;
+    align-self: center;
+    border-radius: 6px;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+}
+
+.CardBuy {
+    background: #FFBA00;
+    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.6) 50%, rgba(255, 186, 0, 1) 100%);
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 9px;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+    cursor: pointer;
+
+    h3 {
+        margin: 0;
+    }
+}
+
+.CardBuy:hover {
+    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.5) 50%, rgba(255, 186, 0, 1) 100%);
+
+}
+
+.CardBuy:active {
+    background: linear-gradient(90deg, rgba(255, 186, 0, 1) 0%, rgba(255, 186, 0, 0.4) 50%, rgba(255, 186, 0, 1) 100%);
+
+}
+
+.CardImg:nth-of-type(1) {
+    background-image: url('https://image.made-in-china.com/2f0j00biWkSOgoEuzv/Wd-130HP-New-Design-Wholesale-Farm-Tractor-Wheeled-Tractors-for-Agriculture.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }

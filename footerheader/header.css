@@ -29,6 +29,9 @@
 .header-upper-right{
     margin-right: 300px;
 }
+* {
+    -webkit-tap-highlight-color: transparent;
+}
 .header-middle{
     border-top: 2px solid rgb(54, 54, 78);
     border-bottom: 2px solid rgb(54, 54, 78);
@@ -114,6 +117,9 @@
     border-bottom-right-radius: 20px;
 }
 @media (max-width: 768px){
+    *{
+        user-select: none;
+    }
     header{
         display: flex;
         flex-direction: row;

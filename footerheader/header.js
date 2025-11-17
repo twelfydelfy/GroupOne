@@ -36,7 +36,7 @@ if(resolution > 768){
 else{
     header.innerHTML = `
     <div class="headerleft">
-    <p>GROUP ONE</p>
+    <p>Group ONE</p>
     <img src="images/logo.png">
   </div>
 

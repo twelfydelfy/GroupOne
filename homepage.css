@@ -304,8 +304,8 @@ body {
     margin-top: 50px;
 }
 .sec5sliderbox{
-    width: 90%;
-    overflow-x: hidden;
+    overflow: hidden;
+    width: 100%;
 }
 .sec5slider{
     display: flex;
@@ -318,7 +318,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: min-content;
+    width: 260px;
 }
 .sec5slider .box img{
     height: 177px;
@@ -488,12 +488,24 @@ body {
         width: 100%;
     }
     #sliderLeftArrow{
-        transform: scale(0.7) rotate(180deg) !important;
+        transform: rotate(180deg) !important;
+        height: 40px;
+        width: 40px;
     }
     #sliderRightArrow{
-        transform: scale(0.7);
+        height: 40px;
+        width: 40px;
+    }
+    .sec5sliderbox{
+        width: 90%;
+    }
+    .sec5slider .box {
+        min-width: 260px; 
     }
     .sec5slider{
         width: 500%;
+        justify-content: space-evenly;
+        margin-left: -2%;
     }
+
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Group One</title>
     <link rel="stylesheet" href="homepage.css?v=<?php echo time(); ?>">
     <?php include("basicLinks.php") ?>
     <link rel="stylesheet" href="footerheader/footer.css?v=<?php echo time(); ?>">
