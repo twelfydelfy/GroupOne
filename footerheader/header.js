@@ -15,14 +15,14 @@ if(resolution > 768){
       </div>
       <div class="header-middle">
          <div class="header-middle-left">
-            <p class="logo-text">Group ONE</p>
-            <img class="header-logo" src="images/logo.png">
+            <a href="index.php"><p class="logo-text">Group ONE</p></a>
+            <a href="index.php"><img class="header-logo" src="images/logo.png"></a>
          </div>
          <div class="header-middle-right">
-            <button>DESPRE NOI</button>
-            <button>DOMENII DE ACTIVITATE</button>
-            <button>CONTACTE</button>
-            <button>PROIECTE</button>
+            <a href=""><button>DESPRE NOI</button></a>
+            <button onclick="window.location.href='index.php#desprenoi'">DOMENII DE ACTIVITATE</button>
+            <button onclick="location.href='#footer'">CONTACTE</button>
+            <button onclick="window.location.href='index.php#proiecte'">PROIECTE</button>
          </div>
       </div>
       <div class="header-lower">
@@ -46,10 +46,10 @@ else{
     <div class="headerhidden">
       <div class="hidden">
         <div class="hiddenmenu">
-          <a><button>DESPRE NOI</button></a>
-          <a><button>DOMENII DE ACTIVITATE</button></a>
-          <a><button>CONTACTE</button></a>
-          <a><button>PROIECTE</button></a>
+          <a href=""><button>DESPRE NOI</button></a>
+            <button onclick="window.location.href='index.php#desprenoi'">DOMENII DE ACTIVITATE</button>
+            <button onclick="location.href='#footer'">CONTACTE</button>
+            <button onclick="window.location.href='index.php#proiecte'">PROIECTE</button>
         </div>
 
         <div class="hiddencontacts">

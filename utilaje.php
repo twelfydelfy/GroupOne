@@ -9,7 +9,7 @@
     <?php include("basicLinks.php") ?>
     <link rel="stylesheet" href="footerheader/footer.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="footerheader/header.css?v=<?php echo time(); ?>">
-    <link rel="stylesheet" href="inchiriere.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="utilaje.css?v=<?php echo time(); ?>">
 </head>
 
 <body>

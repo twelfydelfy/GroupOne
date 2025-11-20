@@ -12,6 +12,13 @@
     justify-content: space-evenly;
     width: 95%;
     align-items: flex-start;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: all ease 1s;
+}
+.fupper.show{
+    opacity: 1;
+    transform: translateY(0);
 }
 .fcontactform{
     width: 30%;
@@ -113,7 +120,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-
 }
 .flower-contacts{
     display: flex;

@@ -41,7 +41,7 @@
             </div>
         </div>
     </div>
-    <div class="section2">
+    <div class="section2" id="desprenoi">
         <div class="title">
             <h1>domenii <span>de activitate</span></h1>
         </div>
@@ -156,7 +156,7 @@
                         <p>Va nie ini arde hogeacu</p>
                     </div>
                 </div>
-                <div class="box">
+                <div class="box" id="proiecte">
                     <img src="images/square.png">
                     <div class="boxinner">
                         <h1>Tolea Selban SRL</h1>
@@ -173,7 +173,7 @@
             </div>
         </div>
     </div>
-    <div class="section5">
+    <div class="section5" >
         <div class="title">
             <h1>Proiectele <span>noastre</span></h1>
         </div>

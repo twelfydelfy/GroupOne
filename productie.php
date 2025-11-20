@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <?php include('footerheader/header.php') ?>
     <div class="center">
         <div class="TipaBtn">
             <h1>Cumpara o <span>PULA</span> de la <span>NOI</span></h1>
@@ -63,6 +64,7 @@
     <?php include("footerheader/footer.php") ?>
     <script src="homepage.js?v=<?php echo time(); ?>"></script>
     <script src="footerheader/footer.js?v=<?php echo time(); ?>"></script>
+    <script src="footerheader/header.js?v=<?php echo time(); ?>"></script>
 
 </body>
 

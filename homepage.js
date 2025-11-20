@@ -162,7 +162,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                     <h6>Vindem Asfalt3</h6>
                     <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
                         Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
+                    <a href="productie.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -200,7 +200,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                     <h6>Vindem Asfalt4</h6>
                     <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
                         Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
+                    <a href="utilaje.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -233,3 +233,19 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
         }
     })
 })
+
+
+//This part is responsible for the animations
+// document.addEventListener("DOMContentLoaded", animations());
+// function animations(){
+//     let e = document.querySelectorAll("*"),
+//         t = () => {
+//             let t = 1 * window.innerHeight;
+//             e.forEach(e => {
+//                 let i = e.getBoundingClientRect().top;
+//                 i < t ? e.classList.add("show") : e.classList.remove("show");
+//             });
+//         };
+//     window.addEventListener("scroll", t);
+//     t();
+// }

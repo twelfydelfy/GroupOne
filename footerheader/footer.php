@@ -1,4 +1,4 @@
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="fupper">
             <div class="fcontactform">
                 <p>Contactează-ne</p>
@@ -62,3 +62,5 @@
             </div>
         </div>
     </div>
+    <script src="animations.js?v=<?php echo time(); ?>"></script>
+    <script src="footerheader/footer.js?v=<?php echo time(); ?>"></script>
