@@ -173,7 +173,30 @@
             </div>
         </div>
     </div>
-    <div class="section5" >
+    <div class="section6">
+        <div class="title"><h1>DESPRE NOI</h1></div>
+        <div class="sec6inner">
+            <div class="sec6left">
+                <img src="images/placeholder.avif">
+            </div>
+            <div class="sec6right">
+                <h1 class="contentTitle">Compania <span>Group One</span></h1>
+                <p class="content">
+                    Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                </p>
+                <
+            </div>
+        </div>
+
+    </div>
+    <div class="section5">
         <div class="title">
             <h1>Proiectele <span>noastre</span></h1>
         </div>
