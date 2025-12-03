@@ -71,7 +71,7 @@ body{
     width: 70%;
     justify-content: space-between;
     align-items: flex-start;
-    height: 563px;
+    height: 400px;
 }
 .sec3right{
     display: flex;
@@ -112,7 +112,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items:flex-start;
-    height: 563px;
+    height: 400px;
     width: 75%;
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -174,12 +174,12 @@ body{
     margin: 0;
 }
 .sec3leftimg{
-    height: 563px;
+    height: 400px;
     width: 267px;
 }
 .sec3leftimg img{
     object-fit: cover;
-    height: 563px;
+    height: 400px;
     width: 267px;
 }
 
