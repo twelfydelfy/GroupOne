@@ -19,7 +19,7 @@ if(resolution > 768){
             <a href="index.php"><img class="header-logo" src="images/logo.png"></a>
          </div>
          <div class="header-middle-right">
-            <a href=""><button>DESPRE NOI</button></a>
+            <button onclick="window.location.href='index.php#desprenoi2'">DESPRE NOI</button>
             <button onclick="window.location.href='index.php#desprenoi'">DOMENII DE ACTIVITATE</button>
             <button onclick="location.href='#footer'">CONTACTE</button>
             <button onclick="window.location.href='index.php#proiecte'">PROIECTE</button>
@@ -46,7 +46,7 @@ else{
     <div class="headerhidden">
       <div class="hidden">
         <div class="hiddenmenu">
-          <a href=""><button>DESPRE NOI</button></a>
+            <button onclick="window.location.href='index.php#desprenoi2'">DESPRE NOI</button>
             <button onclick="window.location.href='index.php#desprenoi'">DOMENII DE ACTIVITATE</button>
             <button onclick="location.href='#footer'">CONTACTE</button>
             <button onclick="window.location.href='index.php#proiecte'">PROIECTE</button>

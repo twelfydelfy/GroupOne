@@ -17,7 +17,7 @@
     <?php include('footerheader/header.php') ?>
     <div class="center">
         <div class="TipaBtn">
-            <h1>Cumpara o <span>PULA</span> de la <span>NOI</span></h1>
+            <h1>Cumpara o <span>Ceva=</span> de la <span>NOI</span></h1>
         </div>
     </div>
     <div class="content">

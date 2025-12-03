@@ -64,12 +64,12 @@ document.querySelectorAll('.sec3rbtn').forEach(button => {
     document.querySelectorAll('.sec3rbtn').forEach(btn => {
       btn.classList.remove('active');
       const img = btn.querySelector('img');
-      if (img) img.src = img.dataset.inactive; // reset all images
+      if (img) img.src = img.dataset.inactive; 
     });
 
     button.classList.add('active');
     const activeImg = button.querySelector('img');
-    if (activeImg) activeImg.src = activeImg.dataset.active; // activate clicked one
+    if (activeImg) activeImg.src = activeImg.dataset.active; 
   });
 });
 
@@ -83,8 +83,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <p>Asigurăm servicii complete pentru construcția și modernizarea drumurilor, de la pregătirea infrastructurii până la aplicarea straturilor finale de asfalt. Utilizăm tehnologii avansate, materiale certificate și echipe cu experiență, garantând lucrări durabile, sigure și conforme cu toate standardele tehnice.</p>
                     <a href="drumuri.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
@@ -121,9 +120,8 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
             section3content.innerHTML = `
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
-                    <h6>Vindem Asfalt2</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <h6>Transport și Închiriere Utialje</h6>
+                    <p>Punem la dispoziție servicii de transport pentru materiale și echipamente, adaptate proiectelor de orice dimensiune. Oferim utilaje moderne pentru închiriere, inclusiv excavatoare, compactoare și camioane specializate, asigurând execuție eficientă și sigură.</p>
                     <a href="inchiriere.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
@@ -159,9 +157,8 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
             section3content.innerHTML = `
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
-                    <h6>Vindem Asfalt3</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <h6>Producere</h6>
+                    <p>Asigurăm producerea asfaltului și betonului la standarde înalte, utilizând materiale certificate și tehnologii moderne. Oferim livrare promptă și cantități adaptate proiectelor de orice dimensiune, garantând consistență, durabilitate și performanță în fiecare lot.</p>
                     <a href="productie.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
@@ -197,9 +194,8 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
             section3content.innerHTML = `
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
-                    <h6>Vindem Asfalt4</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
+                    <h6>Utilaje spre vânzare</h6>
+                    <p>Punem la dispoziție utilaje și echipamente profesionale pentru construcții, selectate pentru fiabilitate și performanță, verificate tehnic, potrivite atât pentru proiecte de amploare, cât și pentru lucrări specializate.</p>
                     <a href="utilaje.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">

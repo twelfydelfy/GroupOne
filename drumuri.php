@@ -34,27 +34,27 @@
     <div class="section3">
         <div class="sec3right">
             <div class="sec3rbtn active" id="1">
-                <img src="images/Ellipse101.png" data-active="images/Ellipse101.png"
-                    data-inactive="images/Ellipse100.png">
-                <p>Construcția și Reabilitarea Drumurilor</p>
+                <img src="images/Ellipse101." data-active="images/road-roller.png"
+                    data-inactive="images/road-roller-yellow.png">
+                <p>Terasamente</p>
             </div>
 
             <div class="sec3rbtn" id="2">
                 <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
                     data-inactive="images/Ellipse100.png">
-                <p>Servicii de Transport, Închiriere Utilaje</p>
+                <p>Macadamuri</p>
             </div>
 
             <div class="sec3rbtn" id="3">
                 <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
                     data-inactive="images/Ellipse100.png">
-                <p>Producere</p>
+                <p>Asfalturi</p>
             </div>
 
             <div class="sec3rbtn" id="4">
                 <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
                     data-inactive="images/Ellipse100.png">
-                <p>Utilaje spre Vânzare</p>
+                <p>Lucrări de amenajare</p>
             </div>
 
         </div>
