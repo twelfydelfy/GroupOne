@@ -22,9 +22,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
+                    <p>Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem</p>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -61,9 +59,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt2</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="inchiriere.php"><button>Detalii</button></a>
+                    <p>Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem</p>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -99,9 +95,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt3</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
+                    <p>Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem</p>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">
@@ -137,9 +131,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
                     <h6>Vindem Asfalt4</h6>
-                    <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
-                        Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
+                    <p>Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem lorem Lorem Lorem Lorem</p>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">

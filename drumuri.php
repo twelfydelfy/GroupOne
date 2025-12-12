@@ -17,11 +17,7 @@
     <div class="section1">
         <div class="title2"><h1><span>CONSTRUCȚIA</span> ȘI REABILITAREA <span>DRUMURILOR</span></h1></div>
         <div class="section1inner">
-            <p>dwadadawdwadwadawdawdawdawdwadawdawdawd
-                dwadadawdwadwadawdawdawdawdwadawdawdawd
-                dwadadawdwadwadawdawdawdawdwadawdawdawd
-                dwadadawdwadwadawdawdawdawdwadawdawdawd
-                dwadadawdwadwadawdawdawdawdwa</p>
+            <p>Oferim servicii complete de construcție și reabilitare a drumurilor, realizate cu tehnologii moderne și echipamente performante. Echipa noastră asigură execuție precisă, durabilitate și respectarea tuturor standardelor tehnice. De la pregătirea terenului până la asfaltare și finisaje, fiecare etapă este gestionată cu profesionalism, astfel încât proiectele să fie finalizate rapid, sigur și la cel mai înalt nivel de calitate.</p>
             <img src="images/placeholder.avif">
         </div>
     </div>
@@ -29,31 +25,30 @@
         <div class="title">
             <h1>domenii <span>de activitate</span></h1>
         </div>
-        <p class="subtitle">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
     </div>
     <div class="section3">
         <div class="sec3right">
             <div class="sec3rbtn active" id="1">
-                <img src="images/Ellipse101." data-active="images/road-roller.png"
-                    data-inactive="images/road-roller-yellow.png">
+                <img src="images/road-grader.png" data-active="images/road-grader.png"
+                    data-inactive="images/road-grader-yellow.png">
                 <p>Terasamente</p>
             </div>
 
             <div class="sec3rbtn" id="2">
-                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
-                    data-inactive="images/Ellipse100.png">
+                <img src="images/paver-yellow.png" data-active="images/paver.png"
+                    data-inactive="images/paver-yellow.png">
                 <p>Macadamuri</p>
             </div>
 
             <div class="sec3rbtn" id="3">
-                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
-                    data-inactive="images/Ellipse100.png">
+                <img src="images/roadrolleryellow.png" data-active="images/roadroller.png"
+                    data-inactive="images/roadrolleryellow.png">
                 <p>Asfalturi</p>
             </div>
 
             <div class="sec3rbtn" id="4">
-                <img src="images/Ellipse100.png" data-active="images/Ellipse101.png"
-                    data-inactive="images/Ellipse100.png">
+                <img src="images/excavator-yellow.png" data-active="images/excavator.png"
+                    data-inactive="images/excavator-yellow.png">
                 <p>Lucrări de amenajare</p>
             </div>
 
@@ -64,7 +59,6 @@
                     <h6>Vindem Asfalt</h6>
                     <p>Noi caroce punem asfalt ne futem cu mintea belim pula la arici
                         Și bem cofe în loc să lucrăm pizdim solearcă iaebu caroce</p>
-                    <a href="drumuri.php"><button>Detalii</button></a>
                 </div>
                 <div class="sec3leftlower">
                     <div class="box">

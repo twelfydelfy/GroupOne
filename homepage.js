@@ -78,11 +78,12 @@ document.querySelectorAll('.sec3rbtn').forEach(button => {
 const section3content = document.querySelector('.sec3left');
 document.querySelectorAll('.sec3rbtn').forEach(button =>{
     button.addEventListener('click', ()=>{
+        section3content.style.opacity = 0;
         if(button.id == '1'){
             section3content.innerHTML = `
                <div class="sec3leftcontent">
                 <div class="sec3leftupper">
-                    <h6>Vindem Asfalt</h6>
+                    <h6>Construcție și Reabilitare</h6>
                     <p>Asigurăm servicii complete pentru construcția și modernizarea drumurilor, de la pregătirea infrastructurii până la aplicarea straturilor finale de asfalt. Utilizăm tehnologii avansate, materiale certificate și echipe cu experiență, garantând lucrări durabile, sigure și conforme cu toate standardele tehnice.</p>
                     <a href="drumuri.php"><button>Detalii</button></a>
                 </div>
@@ -227,6 +228,7 @@ document.querySelectorAll('.sec3rbtn').forEach(button =>{
             </div>
             `
         }
+        setTimeout(()=>{section3content.style.opacity = 1;}, 200);
     })
 })
 

@@ -19,6 +19,7 @@ body{
     justify-content: space-evenly;
     width: 80%;
     margin-top: 50px;
+    column-gap: 50px;
 }
 .section1inner p{
     width: 40%;
@@ -72,6 +73,7 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     height: 400px;
+    margin-top: 20px;
 }
 .sec3right{
     display: flex;
@@ -106,6 +108,10 @@ body{
     font-weight: 500;
     padding-left: 10px;
     width: 100%;
+}
+.sec3rbtn img{
+    height: 50px;
+    width: auto;
 }
 .sec3left{
     display: flex;

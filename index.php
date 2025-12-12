@@ -15,42 +15,42 @@
     <?php include("footerheader/header.php") ?>
 
     <div class="section1">
-        <img src="images/placeholdertitle.png" alt="" class="coverImg">
+        <img src="images/placeholder10.jpg" alt="" class="coverImg">
         <div class="sec1txt1">
-            <p>STRICAM DRUMURI </p>
+            <p>CONSTRUIM DRUMURI </p>
         </div>
         <div class="sec1txt2">
             <div class="s1box">
-                <h1>20+ Ani</h1>
-                <p>De experiență în cristi</p>
-            </div>
-            <hr>
-            <div class="s1box">
-                <h1>20+ Ani</h1>
+                <h1>12+ Ani</h1>
                 <p>De experiență în domeniu</p>
             </div>
             <hr>
             <div class="s1box">
-                <h1>20+ Ani</h1>
-                <p>De experiență în domeniu</p>
+                <h1>200+</h1>
+                <p>Lucrări Realizare</p>
             </div>
             <hr>
             <div class="s1box">
-                <h1>20+ Ani</h1>
-                <p>De experiență în domeniu</p>
+                <h1>În 17</h1>
+                <p>Raioane din Moldova</p>
+            </div>
+            <hr>
+            <div class="s1box">
+                <h1>În Peste 50</h1>
+                <p>De sate și orașe</p>
             </div>
         </div>
     </div>
     <div class="section2" id="desprenoi">
         <div class="title">
-            <h1>domenii <span>de activitate</span></h1>
+            <h1>Serviciile <span>Noastre</span></h1>
         </div>
-        <p class="subtitle">Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum</p>
     </div>
     <div class="section3">
         <div class="sec3right">
             <div class="sec3rbtn active" id="1">
-                <img src="images/roadroller.png" data-active="images/roadroller.png" data-inactive="images/roadrolleryellow.png">
+                <img src="images/roadroller.png" data-active="images/roadroller.png" data-in
+                active="images/roadrolleryellow.png">
 
                 <p>Construcția și Reabilitarea Drumurilor</p>
             </div>
@@ -77,7 +77,7 @@
         <div class="sec3left">
             <div class="sec3leftcontent">
                 <div class="sec3leftupper">
-                    <h6>Vindem Asfalt</h6>
+                    <h6>Construcție și Reabilitare</h6>
                     <p>Asigurăm servicii complete pentru construcția și modernizarea drumurilor, de la pregătirea infrastructurii până la aplicarea straturilor finale de asfalt. Utilizăm tehnologii avansate, materiale certificate și echipe cu experiență, garantând lucrări durabile, sigure și conforme cu toate standardele tehnice.</p>
                     <a href="drumuri.php"><button>Detalii</button></a>
                 </div>
@@ -115,8 +115,7 @@
             <div class="sec4title">
                 <h1>Partenerii <span>Noștri</span></h1>
             </div>
-            <p class="sec4subtitle">Afla partenerii nostri ce ofera suportul pentru a presta cele mai bune servicii in
-                domeniul constructiei drumurilor</p>
+            <p class="sec4subtitle">Parteneri ce ne ajută să oferim calitate și profesionalism</p>
             <div class="sec4leftcontent">
                 <div class="box">
                     <img src="images/condaline.png">
@@ -145,8 +144,7 @@
             <div class="sec4title">
                 <h1>Certificările <span>noastre</span></h1>
             </div>
-            <p class="sec4subtitle">Afla partenerii nostri ce ofera suportul pentru a presta cele mai bune servicii in
-                domeniul constructiei drumurilor</p>
+            <p class="sec4subtitle">Recunoașteri ce atestă siguranța și responsabilitatea firmei</p>
             <div class="sec4rightcontent">
                 <div class="box">
                     <a href="documents\ISO 9001 41-QMS-A-25.pdf" target="_blank"><img src="images/download-pdf.png"></a>
@@ -155,7 +153,7 @@
                         <p>Certifică faptul că firma funcționează după standarde internaționale de calitate.</p>
                     </div>
                 </div>
-                <div class="box" id="proiecte">
+                <div class="box">
                     <a href="documents\ISO 45001 41-OHSMS-25.pdf" target="_blank"><img src="images/download-pdf.png"></a>
                     <div class="boxinner">
                         <h1>ISO 45001</h1>
@@ -176,11 +174,11 @@
         <div class="title"><h1>DESPRE NOI</h1></div>
         <div class="sec6inner">
             <div class="sec6left">
-                <img src="images/placeholder.avif">
+                <img src="images/placeholder11.jpg">
             </div>
             <div class="sec6right">
                 <h1 class="contentTitle">Compania <span>Group One</span></h1>
-                <p class="content">
+                <p class="content" id="proiecte">
                     Fondată în 1983, Group One activează de peste trei decenii în domeniul infrastructurii rutiere. După schimbarea profilului în 2010 și reorganizarea din 2016, compania și-a consolidat poziția ca specialist în construcția, reparația și întreținerea drumurilor. Pe lângă activitatea de bază, Group One oferă servicii conexe precum închirierea utilajelor de construcție, transportul agregatelor din carieră și balastieră, vânzarea utilajelor și producerea și comercializarea betoanelor.
                 </p>
             </div>
